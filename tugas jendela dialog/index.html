@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jendela Dialog</title>
+</head>
+<body>
+    <button onclick="prompt('siapa nama anda?')">kenalan yuk</button>
+    <script>
+        function Nama(){
+            let nama = prompt("siapa nama anda?", "");
+            document.write("haiii," + Nama);
+        }
+    </script>
+
+    <button onclick="confirm('apakah anda yakin akan meninggalkan halaman web ini?')">mutalan?</button>
+    <script>
+        function yakin(){
+            let yakin = confirm("apakah anda yakin akan meinggalkan halaman web ini?");
+            if(yakin==true){
+                window.location="https://www.instagram.com/im__nishinee/"
+                    }else{
+                    document.write ("tetap tinggal di web ini");
+                    }}
+    </script>
+
+<button onclick="alert('luvv yu')">coba click</button>
+</body>
+</html>
